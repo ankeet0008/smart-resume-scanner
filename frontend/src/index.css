@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #f6f3ee;
+  --panel: rgba(255, 255, 255, 0.85);
+  --ink: #121117;
+  --text: #5f5b66;
+  --text-strong: #14131a;
+  --border: rgba(20, 19, 26, 0.12);
+  --accent: #e96c57;
+  --accent-soft: rgba(233, 108, 87, 0.18);
+  --shadow:
+    rgba(33, 33, 40, 0.1) 0 18px 40px -12px,
+    rgba(33, 33, 40, 0.08) 0 10px 18px -12px;
+
+  --heading: 'Space Grotesk', sans-serif;
+  --body: 'Work Sans', sans-serif;
+
+  font: 16px/1.55 var(--body);
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, #fff6e5 0%, rgba(255, 246, 229, 0) 40%),
+    radial-gradient(circle at 20% 30%, rgba(63, 184, 175, 0.2) 0%, rgba(63, 184, 175, 0) 45%),
+    var(--bg);
+  color: var(--text);
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading);
+  color: var(--text-strong);
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: var(--body);
+}
